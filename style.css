@@ -161,7 +161,6 @@ main{
 /* inspiration styles */
 
 .inspiration{
-    background-color: cyan;
     margin-top: 80px;
     width: 100%;
     display: flex;
@@ -299,5 +298,36 @@ main{
     background-color: white;
     border: none;
     border-radius: 16px;
+    cursor: pointer;
 }
 
+#submitbtn:hover{
+    opacity: 0.9;
+}
+
+
+
+/* footer styles */
+
+footer{
+    width: 1140px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-icons ul{
+    display: flex;
+    gap: 24px;
+    margin: 0;
+}
+
+.footer-icons ul>li{
+    list-style: none;
+}
