@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: "Azeret Mono", Arial, Helvetica, sans-serif; 
+    width: 1440px;
+    text-align: center;
+}
+
+/* shared styles */
+
+.titles{
+    font-weight: 900;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.descriptions{
+    line-height: 26px;
+    color: rgba(13, 19, 33, 0.712);
+}
+
+.resume{
+    border-radius: 8px;
+    padding: 17px 24px;
+}
+
+.buttons{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1);
+    padding: 12px 20px;
+    border: 1px solid black;
+}
+
+.card-titles{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+
+/* header styles */
+.header-text{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 0 160px;
+    font-size: 28px;
+}
+
+.banner{
+    height: 650px;
+    background-image: url(assets/Hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1{
+    font-weight: 800;
+    line-height: 68px;
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.banner p{
+    width: 850px;
+    margin-bottom: 32px;
+}
+
+.contact{
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(13, 19, 33, 1.00);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* main styles */
+
+main{
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1140px;
+}
+
+/* why-section styles */
+
+.why-section-container{
+    width: 1140px;
+    padding: 80px 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-section{
+    width: 946px;
+}
+
+.why-heading-texts{
+    width: 852px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+
+/* why cards */
+
+.card{
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.card-left{
+    width: 477px;
+    text-align: left;
+}
+
+.card-left h2{
+    width: 390px;
+    margin-bottom: 16px;
+}
+
+.card-left p{
+    width: 468px;
+    margin-bottom: 32px;
+}
+
+
+
+/* inspiration styles */
+
+.inspiration{
+    background-color: cyan;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration-texts{
+    width: 852px;
+    margin-bottom: 48px;
+}
+
+.video-container{
+    padding: 32px;
+    width: 100%;
+}
+
+.video-container iframe{
+    border-radius: 16px;
+}
+
