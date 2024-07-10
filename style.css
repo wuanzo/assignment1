@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: "Azeret Mono", Arial, Helvetica, sans-serif; 
 }
 a{
     color: rgba(13, 19, 33, 1);
@@ -8,7 +9,6 @@ a{
 
 body{
     margin: 0 auto;
-    font-family: "Azeret Mono", Arial, Helvetica, sans-serif; 
     width: 1440px;
     text-align: center;
 }
@@ -187,6 +187,7 @@ main{
 
 .targets{
     margin-top: 150px;
+    width: 100%;
 }
 
 .topic-cards{
@@ -242,3 +243,61 @@ main{
 .next-topic-card h2{
     margin-top: 0;
 }
+
+/* help section styles */
+.help-section{
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 64px;
+    color: white;
+}
+
+
+.help-section-texts h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 0;
+}
+
+.help-section-texts p{
+    font-size: 16px;
+    font-weight: 606;
+    width: 606px;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.help-textbox-container{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+#help-textbox{
+    width: 548px;
+    padding: 20px;
+    border-radius: 16px;
+    border: none;
+    height: 57px;
+    font-size: 16px;
+}
+
+#help-textbox::placeholder{
+    color: rgba(13, 19, 33, 0.63);
+}
+
+
+#submitbtn{
+    padding: 17px 20px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    border-radius: 16px;;
+}
+
