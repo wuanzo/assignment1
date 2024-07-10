@@ -40,9 +40,15 @@ body{
 .buttons{
     font-size: 20px;
     font-weight: 600;
-    color: rgba(13, 19, 33, 1);
+    color: rgba(13, 19, 33, 0.651);
+    background-color: white;
     padding: 12px 20px;
     border: 1px solid black;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    opacity: 0.8;
 }
 
 .card-titles{
@@ -99,6 +105,11 @@ body{
     color: white;
     border: none;
     border-radius: 8px;
+    cursor: pointer
+}
+
+.contact:hover{
+    opacity: 0.9;
 }
 
 
@@ -170,12 +181,14 @@ main{
 
 .inspiration-texts{
     width: 852px;
-    margin-bottom: 48px;
+    margin-bottom: 44px;
 }
 
 .video-container{
     padding: 32px;
     width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    border-radius: 16px;
 }
 
 .video-container iframe{
@@ -263,7 +276,7 @@ main{
 }
 
 .help-section-texts p{
-    color: rgba(228, 228, 228, 0.753);
+    color: rgba(228, 228, 228, 0.76);
     width: 606px;
     line-height: 26px;
     margin: 0 auto;
@@ -311,7 +324,9 @@ main{
 
 footer{
     width: 1140px;
-    margin: 32px auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
