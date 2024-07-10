@@ -23,6 +23,11 @@ body{
     color: rgba(13, 19, 33, 0.712);
 }
 
+.title-box{
+    width: 852px;
+    margin: 0 auto;
+}
+
 .resume{
     border-radius: 8px;
     padding: 17px 24px;
@@ -79,7 +84,6 @@ body{
 }
 
 .banner p{
-    width: 850px;
     margin-bottom: 32px;
 }
 
@@ -120,8 +124,6 @@ main{
 }
 
 .why-heading-texts{
-    width: 852px;
-    margin: 0 auto;
     margin-bottom: 48px;
 }
 
@@ -177,3 +179,36 @@ main{
     border-radius: 16px;
 }
 
+/* targets styles */
+
+.targets{
+    margin-top: 150px;
+}
+
+.topic-cards{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic{
+    width: 364px;
+    margin-right: 24px;
+    padding: 40px;
+    text-align: left;
+    border-radius: 16px;
+}
+
+#htmlcard{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+#csscard{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+#jscard{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.current-target{
+    margin-bottom: 111px;
+}
