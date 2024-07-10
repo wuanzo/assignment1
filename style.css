@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: "Azeret Mono", Arial, Helvetica, sans-serif; 
+    font-family: "Azeret Mono", Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 a{
     color: rgba(13, 19, 33, 1);
@@ -105,7 +106,7 @@ body{
     color: white;
     border: none;
     border-radius: 8px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .contact:hover{
@@ -276,7 +277,7 @@ main{
 }
 
 .help-section-texts p{
-    color: rgba(228, 228, 228, 0.76);
+    color: rgba(228, 228, 228, 0.808);
     width: 606px;
     line-height: 26px;
     margin: 0 auto;
