@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+a{
+    color: rgba(13, 19, 33, 1);
+    font-weight: 700;
+}
 
 body{
     margin: 0 auto;
@@ -211,4 +215,30 @@ main{
 
 .current-target{
     margin-bottom: 111px;
+}
+
+/* next topics styles */
+
+.next-topics{
+    margin-top: 48px;
+}
+
+.next-topic-card{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    border: 1px solid rgba(13, 19, 33, 0.116);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.next-topic-card img{
+    margin-right: 24px;
+    width: 85px;
+}
+
+.next-topic-card h2{
+    margin-top: 0;
 }
